@@ -48,3 +48,7 @@ def won?(board)
 
    value
 end
+
+def full?(board)
+  board.none? { |e| e == " " }
+end
