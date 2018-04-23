@@ -56,7 +56,7 @@ end
 def over? (board)
   game_over = false
   if won?(board) == true || draw?(board) == true || full?(board) == true
-    return true
+    game_over = true
 
   end
    game_over
