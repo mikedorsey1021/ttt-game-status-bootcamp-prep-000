@@ -29,6 +29,6 @@ def won (board)
       else
         counter = 0
       end
-
+    end
   end
 end
