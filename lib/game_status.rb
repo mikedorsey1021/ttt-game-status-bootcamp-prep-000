@@ -62,9 +62,9 @@ def over? (board)
    game_over
 end
 
-def winner? (board)
-
+def winner (board)
+  index = won?(board)[0]
   if won?(board) != false
-    return board[won?(board)[0]]
+    return board[index]
   end
 end
