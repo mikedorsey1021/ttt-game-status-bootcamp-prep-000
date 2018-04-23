@@ -54,12 +54,12 @@ def draw? (board)
 end
 
 def over? (board)
+  game_over = false
   if won?(board) == true || draw?(board) == true || full?(board) == true
     return true
-  else
-    return true
+  
   end
-  return false
+   game_over
 end
 
 def winner? (board)
