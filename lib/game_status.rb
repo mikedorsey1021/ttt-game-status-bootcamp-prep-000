@@ -32,7 +32,7 @@ def won? (board)
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       value = win_combination
     else
-      false
+      return false
     end
   end
 
