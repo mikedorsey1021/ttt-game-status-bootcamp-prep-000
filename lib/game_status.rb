@@ -30,7 +30,7 @@ WIN_COMBINATIONS = [
 #
 # end
 def won?(board)
-last_value = false
+  result = false
   WIN_COMBINATIONS.each do |win_combination|
     win_index_1 = win_combination[0]
     win_index_2 = win_combination[1]
@@ -46,5 +46,5 @@ last_value = false
     end
   end
 
-   last_value
+   result
 end
