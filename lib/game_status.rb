@@ -55,7 +55,7 @@ end
 
 def over? (board)
   game_over = false
-  if won?(board) == true || draw?(board) == true || full?(board) == true
+  if won?(board) != false || draw?(board) == true || full?(board) == true
     game_over = true
 
   end
